@@ -1,0 +1,692 @@
+    1  
+    2  sudo apt update && sudo apt update
+    3  code . 
+    4  pwd
+    5  git clone https://github.com/mipt-cs/course-advanced_python.git
+    6  cd course-advanced_python/
+    7  ls
+    8  which python3
+    9  python -m venv .venv
+   10  vim requirements.txt 
+   11  python3 -m venv .venv
+   12  ls 
+   13  apt install python3.12-venv
+   14  python3 -m venv .venv
+   15  make html
+   16  echo $
+   17  echo $?
+   18  install make 
+   19  install --help
+   20  ls
+   21  make 
+   22  pytnon3 install make
+   23  sudo apt install make
+   24  make html
+   25  conda install -c bioconda seqkit
+   26  install conda
+   27  install --help
+   28  install -c bioconda seqkit
+   29  
+   30  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+   31  bash Miniconda3-latest-Linux-x86_64.sh
+   32  source ~/.bashrc
+   33  conda list
+   34  conda: command not found
+   35  bash Miniconda3-latest-Linux-x86_64.sh
+   36  conda list
+   37  source ~/.bashrc
+   38  conda --version
+   39  source ~/miniconda3/etc/profile.d/conda.sh
+   40  conda --version
+   41  conda install -c bioconda seqkit
+   42  cat Nt_blast.fasta Nt_interpro.fasta > Nt_comdined.fasta
+   43  pwd
+   44  ls
+   45  cat Nt_blast.fasta Nt_interpro.fasta > Nt_comdined.fasta
+   46  find / -name "Nt_blast.fasta" 2>/dev/null
+   47  pwd
+   48  ls
+   49  cat Nt_blast.fasta Nt_interpro.fasta > Nt_comdined.fasta
+   50  cat Nt_blast.txta Nt_interpro.fasta > Nt_comdined.fasta
+   51  cat Nt_blast.txt Nt_interpro.fasta > Nt_comdined.fasta
+   52  seqkit rmdup -s Nt_ combined.fasta -o combined_dedup.fasta
+   53  seqkit
+   54  seqkit version
+   55  nano ~/.bashrc
+   56  seqkit --version
+   57  conda install -c bioconda seqkit
+   58  pwd
+   59  conda --version
+   60  find /home -name "seqkit" 2>/dev/null
+   61  nano ~/.bashrc
+   62  export PATH=$PATH:/home/albert/miniconda3/pkgs/seqkit-2.10.1-he881be0_0/bin/seqkit
+   63  source ~/.bashrc
+   64  seqkit version
+   65  pwd
+   66  ls
+   67  find /home -name "seqkit" 2>/dev/null
+   68  nano ~/.bashrc
+   69  pwd
+   70  pwp
+   71  conda --version
+   72  source ~/miniconda3/etc/profile.d/conda.sh
+   73  conda --version
+   74  conda activate seqkit
+   75  conda install -c bioconda seqkit
+   76  seqkit --version
+   77  conda activate seqkit
+   78  seqkit
+   79  find /home -name "seqkit" -type f 2>/dev/null
+   80  sudo cp /home/albert/miniconda3/pkgs/seqkit-2.10.1-he881be0_0/bin/seqkit
+   81  pwd
+   82  conda activate seqkit
+   83  conda info --envs
+   84  conda install -c bioconda seqkit
+   85  seqkit version
+   86  seqkit rmdup -s Nt_combined.fasta -o Nt_combined_dedup.fasta
+   87  pwd
+   88  seqkit rmdup -s Nt_comdined.fasta -o Nt_combined_dedup.fasta
+   89  cat TM_blast.txt TM_interpro.fasta > TM_combined.fasta
+   90  seqkit rmdup -s TM_combined.fasta -o Nt_combined_dedup.fasta
+   91  seqkit rmdup -s TM_combined.fasta -o TM_combined_dedup.fasta
+   92  pwd
+   93  cd \home\albert\bioinf
+   94  cd /home/albert/bioinf
+   95  pwd
+   96  conda --version
+   97  ls
+   98  ls -la
+   99  conda activate
+  100  echo 'export PATH="~/miniconda3/bin:$PATH"' >> ~/.bashrc
+  101  source ~/.bashrc
+  102  conda --version
+  103  conda install bioconda::hmmer
+  104  hmmer --version
+  105  hmmsearch -A myhits.sto PF02702.hmm Nt_combined_dedup.fasta
+  106  esl-reformat fasta myhits.sto > Nt_domains_final.fa
+  107  ls -la Nt_domains_аштфд.fa
+  108  ls -la Nt_domains_final.fa
+  109  esl-reformat fasta myhits.sto > Nt_domains.fasta
+  110  sudo apt-get updatesudo apt-get updatesudo apt-get update
+  111  sudo apt-get update
+  112  sudo apt-get install wget ca-certificates
+  113  pwpwd
+  114  pwd
+  115  code .
+  116  зцв
+  117  pwd
+  118  code .
+  119  exit
+  120  exit 
+  121  code .
+  122  find . -name "IDENTIFIER" -type f -delete
+  123  cd bioinf
+  124  find . -name "IDENTIFIER" -type f -delete
+  125  учше 
+  126  exit
+  127  mcl Nt_outblast_mod.abc --abc -I 1.0 -o clusters_I1.out
+  128  code .
+  129  /bin/python3 -m pip install ipykernel -U --user --force-reinstall
+  130  -m pip install ipykernel -U --user --force-reinstall
+  131  pip install ipykernel -U --user --force-reinstall
+  132  python3 -m venv .venv
+  133  rm -rf .venv && python3 -m venv .venv && source .venv/bin/activate
+  134  pip install ipykernel
+  135  pip install networkx 
+  136  pip install matplotlib 
+  137  pip install ipykernel
+  138  pip install ipykernel -U --user --force-reinstall
+  139  pip install ipykernel
+  140  pip install networkx
+  141  pip install matplotlib
+  142  pip install networkx
+  143  exit
+  144  sudo apt update && sudo apt install -y python3-venv python3-pip
+  145  exit
+  146  source /home/albert/bioinf/.venv/bin/activate
+  147  pip install networkx
+  148  pip install matplotlib
+  149  pip install scipy
+  150  exit
+  151  source /home/albert/bioinf/.venv/bin/activate
+  152  source /home/albert/.venv/bin/activate
+  153  source /home/albert/bioinf/.venv/bin/activate
+  154  find . -name "*:Zone.Identifier" -type f -delete
+  155  i=1
+  156  while IFS= read -r line; do     echo "$line" > "cluster_${i}.txt";     ((i++)); done < output_mcl_if1.1_named_filter.txt
+  157  source /home/albert/bioinf/.venv/bin/activate
+  158  i=1
+  159  while IFS= read -r line; do     echo "$line" > "cluster_${i}.txt";     ((i++)); done < output_mcl_if1.1_named_filter.txt
+  160  source /home/albert/bioinf/mcl/.venv/bin/activate
+  161  pip install requests
+  162  exit
+  163  source /home/albert/bioinf/mcl/.venv/bin/activate
+  164  code
+  165  code .
+  166  exit 
+  167  source /home/albert/bioinf/mcl/.venv/bin/activate
+  168  source /home/albert/bioinf/mcl/.venv/bin/activate
+  169  code .
+  170  exit
+  171  source /home/albert/.venv/bin/activate
+  172  source /home/albert/bioinf/mcl/.venv/bin/activate
+  173  i=1
+  174  while IFS= read -r line; do     echo "$line" > "cluster_${i}.txt";     ((i++)); done < output_mcl_1_3_named_filter.txt
+  175  pip install Bio
+  176  conda install -c bioconda seqtk
+  177  for file in cluster_*.fasta; do     base=$(basename "$file" .fasta);     seqtk sample -s100 "$file" 0.05 > "${base}_subsample.fasta";     echo "Обработан $file"; done
+  178  conda install -c bioconda muscle clustalo
+  179  pip install Bio.Align.Applications
+  180  conda install -c bioconda muscle
+  181  conda install -c bioconda clustalo
+  182  which muscle
+  183  conda list muscle
+  184  which muscle
+  185  conda install -c bioconda fasttree
+  186  from Bio import SeqIO, Phylo
+  187  import subprocess
+  188  import glob
+  189  import os
+  190  # Путь к FastTree (если нужен полный путь)
+  191  FASTTREE_PATH = '/home/albert/miniconda3/bin/FastTree'  # Измените если нужно
+  192  # Или просто 'FastTree' если в PATH
+  193  def build_tree_with_fasttree(aligned_file, output_tree):
+  194  def build_all_trees(aligned_pattern='cluster_*_aligned.fasta'):
+  195  source /home/albert/bioinf/mcl/.venv/bin/activate
+  196  conda list FastTree
+  197  source /home/albert/bioinf/mcl/.venv/bin/activate
+  198  code .
+  199  exit .
+  200  source /home/albert/bioinf/mcl/.venv/bin/activate
+  201  code .
+  202  учше 
+  203  exit 
+  204  source /home/albert/bioinf/mcl/.venv/bin/activate
+  205  code .
+  206  exit
+  207  source /home/albert/bioinf/mcl/.venv/bin/activate
+  208  source /home/albert/bioinf/mcl/.venv/bin/activate
+  209  code .
+  210  exit 
+  211  code .
+  212  exit
+  213  coed .
+  214  code .
+  215  exit
+  216  source /home/albert/bioinf/mcl/.venv/bin/activate
+  217  code .
+  218  cd mcl
+  219  cd home
+  220  cd albert
+  221  ls
+  222  cd exit 
+  223  cd bioinf
+  224  cd mcl
+  225  hmmsearch -A slign.sto PF02702.hmm uniprotkb_2025_12_12.fasta
+  226  esl 
+  227  exit
+  228  source /home/albert/bioinf/mcl/.venv/bin/activate
+  229  source /home/albert/bioinf/annotation/.venv/bin/activate
+  230  install Bio
+  231  install --help
+  232  Bio --version
+  233  pip install biopython
+  234  pip install requests
+  235  chmod +x getgbk2.sh
+  236  source /home/albert/.venv/bin/activate
+  237  source /home/albert/bioinf/annotation/.venv/bin/activate
+  238  code .
+  239  exit
+  240  source /home/albert/bioinf/annotation/.venv/bin/activate
+  241  code .
+  242  porno365.com
+  243  exit
+  244  source /home/albert/.venv/bin/activate
+  245  source /home/albert/bioinf/annotation/.venv/bin/activate
+  246  source /home/albert/bioinf/mcl/.venv/bin/activate
+  247  code .
+  248  exit
+  249  source /home/albert/bioinf/mcl/.venv/bin/activate
+  250  code .
+  251  exit
+  252  source /home/albert/.venv/bin/activate
+  253  source /home/albert/bioinf/mcl/.venv/bin/activate
+  254  code .
+  255  code. 
+  256  code .
+  257  exit
+  258  source /home/albert/.venv/bin/activate
+  259  source /home/albert/bioinf/mcl/.venv/bin/activate
+  260  code .
+  261  exit
+  262  source /home/albert/bioinf/mcl/.venv/bin/activate
+  263  code .
+  264  code.
+  265  code .
+  266  exit
+  267  source /home/albert/.venv/bin/activate
+  268  source /home/albert/bioinf/mcl/.venv/bin/activate
+  269  code .
+  270  exit
+  271  source /home/albert/.venv/bin/activate
+  272  source /home/albert/bioinf/mcl/.venv/bin/activate
+  273  code .
+  274  exit
+  275  source /home/albert/bioinf/mcl/.venv/bin/activate
+  276  code .
+  277  exit
+  278  source /home/albert/.venv/bin/activate
+  279  source /home/albert/bioinf/mcl/.venv/bin/activate
+  280  code .
+  281  exit
+  282  WSL 
+  283  source /home/albert/bioinf/mcl/.venv/bin/activate
+  284  source /home/albert/bioinf/mcl/.venv/bin/activate
+  285  l
+  286  ls
+  287  cd bioinf
+  288  /
+  289  ../..
+  290  whoami
+  291  pwd
+  292  cd ..
+  293  cd -
+  294  mkdir Bioinformatics_2026
+  295  cd Bioinformatic_2026
+  296  cd Bioinformatics_2026
+  297  mkdir sem_1
+  298  cd sem_1
+  299  touch script.sh
+  300  ls
+  301  vim script.sh
+  302  cat scritp.sh
+  303  chmod +x script.sh
+  304  cat script.sh
+  305  ./ script.sh
+  306  ./script.sh
+  307  exit
+  308  source /home/albert/bioinf/.venv/bin/activate
+  309  source /home/albert/bioinf/.venv/bin/activate
+  310  code .
+  311  exit 
+  312  ls
+  313  cd bioinformatics
+  314  ls
+  315  cd Bioinformatics_2026
+  316  ls
+  317  cd sem_1
+  318  exit
+  319  cat Nt-domain-InterPro.fasta Nt-domain-Blast-not-aligned.fasta > Nt-combined.fasta
+  320  conda install bioconda::hmmer
+  321  ls
+  322  conda install bioconda::hmmer
+  323  hmmsearch -A myhits.sto PF02702_23_dec.hmm Nt-combined.fasta
+  324  esl-reformat fasta myhits.sto > Nt-domains.fasta
+  325  seqkit --version
+  326  seqkit rmdup -s Nt-domains.fasta -o Nt-domains_dedup.fasta
+  327  exit
+  328  ls
+  329  cd bioinformatics
+  330  ls
+  331  cd KDPD
+  332  ls
+  333  cd Project1_1
+  334  Объединил файлы из InterPro и Blast по каждому домену. (02.10.2025)
+  335  ```bash
+  336  cat file1.fasta file2.fasta > combined.fasta
+  337  ```
+  338  exit 
+  339  ls
+  340  cd bioinformatics
+  341  ls
+  342  cd KDPD
+  343  ls
+  344  cd Project1_1
+  345  seqkit stats Nt-domains_dedup.fasta
+  346  seqkit seq -m 103 Nt-domains_dedup.fasta > Nt-domains_filtered.fasta
+  347  cs /
+  348  cd /
+  349  ls
+  350  cd home 
+  351  exit 
+  352  sudo apt update
+  353  sudo apt install neofetch
+  354  exit 
+  355  neofetch 
+  356  ls
+  357  cd bioinformatics/
+  358  ls
+  359  cd KDPD/Project1_1
+  360  s
+  361  ls
+  362  awk '$3 >= 20 && $11 <= 1e-5 {print $1, $2, $3}' KDPD_output.txt > Nt_outblast.abc
+  363  awk '$3 != 100' Nt_outblast.abc > temp && mv temp Nt_outblast.abc
+  364  exit
+  365  ls
+  366  cd bioinformatics/Bioinformatics_2026/
+  367  ls
+  368  miniconda --version
+  369  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  370  bash Miniconda3-latest-Linux-x86_64.sh
+  371  conda init
+  372  conda env list
+  373  conda create -n sem_3
+  374  conda activate sem_3
+  375  conda init
+  376  conda activate sem_3
+  377  cd bioinformatics/Bioinformatics_2026/
+  378  conda activate sem_3
+  379  conda install numpy=1.24 pandas=2.0
+  380  pip install biopython==1.83
+  381  vim checkscript.sh
+  382  bash checkscript.sh
+  383  code .
+  384  numpy --version
+  385  python -c "import numpy; print(numpy.__version__)"
+  386  vim checkscript.sh
+  387  bash checkscript.sh
+  388  conda env export --from-history > environment.yml
+  389  conda activate bm
+  390  conda deactivate
+  391  conda init
+  392  cd bioinformatics/Bioinformatics_2026/
+  393  conda activate bm
+  394  conda env list
+  395  conda env create -f envDasha.yml
+  396  conda activate bm
+  397  bash checkscript.sh 
+  398  vim checkscript.sh 
+  399  bash checkscript.sh 
+  400  vim checkscript.sh 
+  401  bash checkscript.sh 
+  402  vim checkscript.sh 
+  403  bash checkscript.sh 
+  404  vim checkscript.sh 
+  405  bash checkscript.sh 
+  406  vim checkscript.sh 
+  407  conda activate /home/albert/bioinformatics/Bioinformatics_2026/.conda
+  408  conda activate sem_3
+  409  conda install ipykernel
+  410  jupyter notebook
+  411  cd bioinformatics/Bioinformatics_2026/
+  412  conda activate bm
+  413  bash checkscript.sh 
+  414  python -c "import numpy; print(numpy.__version__)"
+  415  python -c "import pandas; print(pandas.__version__)"
+  416  vim checkscript.sh 
+  417  bash checkscript.sh 
+  418  vim checkscript.sh 
+  419  bash checkscript.sh 
+  420  exit
+  421  conda activate base
+  422  conda activate cmm_mipt
+  423  conda install ipykernel
+  424  conda install network
+  425  conda install networkx
+  426  conda install matplotlib
+  427  conda install scipy
+  428  code .
+  429  cd bioinformatics/KDPD/
+  430  conda env list
+  431  conda create -n cmm_mipt
+  432  conda activate cmm_mipt
+  433  exit
+  434  conda activate /home/albert/miniconda3/envs/cmm_mipt
+  435  conda install Bio
+  436  conda install biopython
+  437  cd bioinformatics/KDPD/Project1_1/MCL\ visual/
+  438  awk '{print > "cluster_" NR ".txt"}' output_mcl_if1_1_named_filter.txt
+  439  exit
+  440  conda activate /home/albert/miniconda3/envs/cmm_mipt
+  441  cd bioinformatics/KDPD/Project1_1/MCL\ visual/
+  442  ls
+  443  conda activate cmm_mipt
+  444  mkdir -p sub_clusters msa_trees
+  445  for i in {1..9}; do echo "da" ; done
+  446  for i in {1..9}; do   seqtk sample -s100 cluster_$i.fasta 0.05 > sub_clusters/cluster_${i}_sub.fasta; done
+  447  sudo apt install seqtk
+  448  for i in {1..9}; do   seqtk sample -s100 cluster_$i.fasta 0.05 > sub_clusters/cluster_${i}_sub.fasta; done
+  449  vim merge_muscle_fasttree.sh
+  450  bash merge_muscle_fasttree.sh 
+  451  conda install -c bioconda muscle clustalo fasttree seqtk
+  452  bash merge_muscle_fasttree.sh 
+  453  vim merge_muscle_fasttree.sh
+  454  bash merge_muscle_fasttree.sh 
+  455  mkdir subsampled_clusters
+  456  for f in cluster_*.fasta; do     base=$(basename "$f");          if [[ "$base" == "cluster_8.fasta" || "$base" == "cluster_9.fasta" ]]; then
+  457          cp "$f" subsampled_clusters/"$base";     else
+  458          seqtk sample -s100 "$f" 0.05 > subsampled_clusters/"$base";     fi; done
+  459  cat cluster_*.fasta > all_subsampled.fasta
+  460  muscle -align all_subsampled.fasta -output aligned.fasta
+  461  muscle -super5 all_subsampled.fasta -output aligned.fasta
+  462  FastTree -lg -spr 4 -mlacc 2 -slownni aligned.fasta > tree_improved.nwk 2> fasttree.log
+  463  wc -c tree_improved.nwk
+  464  tail -n 20 fasttree.log
+  465  awk -F'|unreviewed|' '/^>/{print $1; next}1' aligned.fasta > aligned_unique.fasta
+  466  grep "^>" aligned_unique.fasta | sort | uniq -d
+  467  code .
+  468  seqkit rmdup -s aligned_unique.fasta -o aligned_unique_dedup.fasta
+  469  FastTree -lg -spr 4 -mlacc 2 -slownni aligned_unique_dedup.fasta > tree_improved.nwk 2> fasttree.log
+  470  ls -lh tree_improved.nwk
+  471  head tree_improved.nwk
+  472  grep -o ":" tree_improved.nwk | wc -l
+  473  grep "^>" aligned_unique_dedup.fasta | wc -l
+  474  grep -o "A[0-9A-Z]*" tree_improved.nwk | sort | uniq | wc -l
+  475  mkdir all_samples_cluster
+  476  cd all_samples_cluster/
+  477  cd ..
+  478  cd all_samples_cluster/
+  479  cat cluster_*.fasta > all_samples.fasta
+  480  muscle -super5 all_samples.fasta -output all_aligned.fasta
+  481  seqkit rmdup -s all_samples.fasta -o all_samples_dedup.fasta
+  482  muscle -super5 all_samples_dedup.fasta -output all_aligned_dedup.fasta
+  483  FastTree -lg -spr 4 -mlacc 2 -slownni all_aligned_dedup.fasta > all_tree_improved.nwk 2> all_fasttree.log
+  484  exit
+  485  cd bioinformatics/Bioinformatics_2026/
+  486  git clone https://github.com/bert0n0sez/bioinformatics_hw_2026
+  487  cd
+  488  cd bioinformatics/Bioinformatics_2026/
+  489  ls
+  490  cd bioinformatics_hw_2026/
+  491  ls
+  492  touch README.md
+  493  nano README.md
+  494  git add README.md
+  495  git status
+  496  git commit -m "Update README.md"
+  497  git config --global user.name bert0n0sez
+  498  git config --global user.email a.iktisanov@yandex.ru
+  499  git commit -m "Update README.md"
+  500  git push -u origin master
+  501  git push -u origin main
+  503  git push -u origin main
+  504  git remote remove origin
+  506  Способ 2: Используйте команду с явным указанием логина
+  507  bash
+  508  ssh-keygen -t ed25519 -C "your_email@example.com"
+  509  git remote remove origin
+  511  git push -u origin main
+  512  git remote -v
+  513  git push -u origin main
+  514  git remote remove origin
+  515  git remote -v
+  516  git push -u origin main
+  517  ды
+  518  ;s
+  519  ls
+  520  git push -u origin main
+  521  git remote add origin https://github.com/bert0n0sez/bioinformatics_hw_2026
+  522  git push -u origin main
+  523  git remote remove origin
+  524  git remote add origin https://github.com/bert0n0sez/bioinformatics_hw_2026.git
+  525  git push -u origin main
+  526  git remote remove origin
+  527  git remote add origin git@github.com:bert0n0sez/bioinformatics_hw_2026.git
+  528  git push -u origin main
+  529  git remote add origin git@github.com:bert0n0sez/bioinformatics_hw_2026.git
+  530  git branch -M main
+  531  git push -u origin main
+  532  ls -la ~/.ssh/
+  533  git push -u origin main
+  534  git remote add origin git@github.com:bert0n0sez/bioinformatics_hw_2026.git
+  535  git push -u origin main
+  536  git remote add origin https://github.com/bert0n0sez/bioinformatics_hw_2026.git
+  537  git push -u origin main
+  538  ls
+  539  git commit -m "Init"
+  540  ls
+  541  git commit -m "Init"
+  542  # Push с явным указанием логина
+  544  Способ 3: Используйте SSH (альтернативный, более удобный вариант)
+  545  bash
+  546  cd bioinformatics/Bioinformatics_2026/bioinformatics_hw_2026/
+  547  git add README.md
+  548  git status
+  549  git commit -m "Init"
+  550  ls
+  551  touch README.md
+  552  nano README.md
+  553  git add README.md
+  554  git status
+  555  cd bioinformatics/Bioinformatics_2026/
+  556  exit
+  557  cd bioinformatics/Bioinformatics_2026/
+  558  lls
+  559  ls
+  560  rmdir bioinformatics_hw_2026/
+  561  ls
+  562  git clone https://github.com/bert0n0sez/bioinformatics_hw_2026
+  563  pwd
+  564  cd bioinformatics_hw_2026/
+  565  mkdir -p linux_task/data/raw
+  566  ls -R linux_task
+  567  cd linux_task/data/raw
+  568  touch sample1.tsv sample2.tsv sample3.tsv
+  569  ls
+  570  echo -e "GeneID\tExpression_Value" > sample1.tsv
+  571  cat sample1.tsv
+  572  cd ~/bioinformatics_hw_2026
+  573  git add linux_task
+  574  cd ..
+  575  git add linux_task
+  576  git status
+  577  git commit -m "Create raw data structure"
+  578  git push
+  579  git config --global --unset credential.helper
+  580  rm -f ~/.git-credentials
+  581  git push
+  582  cd linux_task/data/raw
+  583  cat > sequencing_summary.txt << EOF
+run_id: RUN001
+date: 2026-02-18
+sample: sample1
+platform: Illumina
+read_length: 150
+total_reads: 1024
+sample: sample2
+total_reads: 2048
+sample: sample3
+total_reads: 4096
+EOF
+
+  584  cat sequencing_summary.txt
+  585  grep "sample" sequencing_summary.txt > samples_list.txt
+  586  cat samples_list.txt
+  587  wc -l samples_list.txt
+  588  echo "Total samples found: $count" >> samples_list.txt
+  589  tail -n 5 samples_list.txt
+  590  count=$(wc -l < samples_list.txt)
+  591  echo "Total samples found: $count" >> samples_list.txt
+  592  tail -n 5 samples_list.txt
+  593  grep "sample" sequencing_summary.txt > samples_list.txt
+  594  cat samples_list.txt
+  595  wc -l samples_list.txt
+  596  count=$(wc -l < samples_list.txt)
+  597  echo "Total samples found: $count" >> samples_list.txt
+  598  tail -n 5 samples_list.txt
+  599  cd ..
+  600  git add linux_task/data/raw/sequencing_summary.txt linux_task/data/raw/samples_list.txt
+  601  git commit -m "Add sample list and count"
+  602  git push
+  603  ls ~/.ssh
+  604  ssh-keygen -t ed25519 -C "a.iktisanov@yandex.ru"
+  605  cat ~/.ssh/id_ed25519.pub
+  606  git remote set-url origin git@github.com:bert0n0sez/bioinformatics_hw_2026.git
+  607  git remote -v
+  608  ssh -T git@github.com
+  609  git push
+  610  git checkout -b git-practice
+  611  git branch
+  612  echo "This is very important data." > important_note.txt
+  613  cat important_note.txt
+  614  git add important_note.txt
+  615  git commit -m "Add important_note.txt"
+  616  rm important_note.txt
+  617  ls
+  618  git status
+  619  git restore important_note.txt
+  620  cat important_note.txt
+  621  echo "git restore important_note.txt" > git_command.txt
+  622  cat git_command.txt
+  623  git add important_note.txt git_command.txt
+  624  git commit -m "Restore deleted file"
+  625  history > command_history.txt
+  626  tail -n 10 command_history.txt
+  627  git add command_history.txt
+  628  git commit -m "Add command history"
+  629  git push -u origin git-practice
+  631  git rm --cached linux_task/data/raw/command_history.txt
+  632  git commit --amend -CHEAD
+  634  git add command_history.txt
+  635  git commit -m "Add sanitized command history"
+  636  git push -u origin git-practice
+  637  git filter-branch --force --index-filter "git rm --cached --ignore-unmatch linux_task/data/raw/command_history.txt" --prune-empty --tag-name-filter cat -- --all
+  638  rm -rf .git/refs/original/
+  639  git reflog expire --expire=now --all
+  640  git gc --prune=now --aggressive
+  642  git add linux_task/data/raw/command_history.txt
+  643  git commit -m "Add sanitized command history"
+  644  git push -f -u origin git-practice
+  645  sudo apt update
+  646  sudo apt install git-filter-repo
+  647  git checkout git-practice
+  648  git filter-repo --path linux_task/data/raw/command_history.txt --invert-paths
+  649  git filter-repo --force --path linux_task/data/raw/command_history.txt --invert-paths
+  651  git add linux_task/data/raw/command_history.txt
+  652  git commit -m "Add sanitized command history"
+  653  git push -f -u origin git-practice
+  654  git remote -v
+  655  git remote add origin git@github.com:bert0n0sez/bioinformatics_hw_2026.git
+  656  git remote -v
+  657  git push -f -u origin git-practice
+  658  git checkout main
+  659  git checkout -b git-practice-clean
+  660  git add linux_task
+  661  git commit -m "Recreate branch without secrets"
+  662  git push -u origin git-practice-clean
+  663  git checkout -b git-practice
+  664  git branch
+  665  git checkout main
+  666  git branch
+  667  git branch -D git-practice
+  668  git branch -D git-practice-clean
+  669  git branch
+  670  git push origin --delete git-practice
+  671  git push origin --delete git-practice-clean
+  672  git push origin --delete git-practice
+  673  git branch -D git-practice
+  674  git checkout -b git-practice
+  675  git branch
+  676  echo "This is very important data." > important_note.txt
+  677  cat important_note.txt
+  678  git add important_note.txt
+  679  git commit -m "Add important_note.txt"
+  680  rm important_note.txt
+  681  ls
+  682  git status
+  683  git restore important_note.txt
+  684  cat important_note.txt
+  685  echo "git restore important_note.txt" > git_command.txt
+  686  cat git_command.txt
+  687  git add important_note.txt git_command.txt
+  688  git commit -m "Restore deleted file"
